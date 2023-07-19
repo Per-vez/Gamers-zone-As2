@@ -141,7 +141,7 @@ body {
     margin-bottom: 50px;
 }
 
-.card-title{
+.card-title {
     font-size: 30px;
     margin-bottom: -5px;
 }
@@ -157,31 +157,141 @@ body {
     display: flex;
     gap: 10px;
     justify-content: space-around;
-    margin: 0px 200px;
+    margin: 0px 120px;
 }
 
 .card-image-container p {
     font-size: 10px;
 }
 
-.card-image-container img{
+.card-image-container img {
+    width: 250px;
+    height: 250px;
+}
+
+/* section 2 */
+.new-game-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+    /* margin-right: 80px; */
+}
+
+.new-game1 {
+    /* text-align: center; */
+    margin-left: 300px;
+}
+
+.new-game1-heading {
+
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    width: 200px;
+
+}
+
+.play-instantly {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.new-game1-des {
+    font-size: 10px;
+    margin-top: -15px;
+}
+
+.new-game-demoimg {
+    position: relative;
+    bottom: 120px;
+    right: 50px;
+}
+
+.gameimg1 {
+    width: 500px;
+    height: 500px;
+}
+
+.tailimg1 {
     width: 200px;
     height: 200px;
+}
+/* carrer section */
+.carrer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background-color: #FF42A5;
+}
+
+.carrer-img{
+    width: 50%;
+    margin-right: 100px;
+}
+
+
+
+.carrer-point{
+    display: flex;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.carrer{
+    width: 50%;
+    padding-left: 100px;
+    color: white;
+}
+
+/* .carrer-img1{
+    height: 100%;
+    width: 100%;
+}
+
+/* .carrer-img2{
+    height: 100%;
+    width: 100%;
+} */ */
+.carrers p{
+    font-size: 12px;
+}
+
+
+
+
+
+.btn-primary{
+    color:#FF42A5;
+    border-radius: 10px;
+   background-color: white;
+    padding: 8px;
+    border: 0px;
+    font-size: 15px;
+
 }
 
 
 /* mobile device responsive */
 @media screen and (max-width:576px) {
+
     .nav-container,
     .nav-list,
-    .card-image-container{
+    .card-image-container,
+    .new-game-container {
         flex-direction: column;
     }
 
-    .banner-container{
+    .banner-container {
         flex-direction: column;
     }
-    .banner-image2{
+
+    .banner-image2 {
         height: 50px;
         width: 50px;
     }
@@ -192,19 +302,25 @@ body {
     } */
 
 
-    .card-headings{
+    .card-headings {
         margin-left: 100px;
     }
 
-.play-like-that, .goat{
+    .play-like-that,
+    .goat {
         margin-left: 150px;
     }
-    .card-img{
-       size: 100%;
+
+    .card-img {
+        size: 100%;
     }
 
     .card-image-containerp{
         text-align: center;
     }
-    
+
+    .new-game1{
+        margin-left: 10px;
+    }
+
 }
