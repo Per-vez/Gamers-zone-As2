@@ -232,7 +232,7 @@ body {
 
 .carrer-img{
     width: 50%;
-    margin-right: 100px;
+    /* margin-right: 50px; */
 }
 
 
@@ -249,15 +249,10 @@ body {
     color: white;
 }
 
-/* .carrer-img1{
-    height: 100%;
-    width: 100%;
+ .carrer-img2{
+    width: 700px;
+    height: 600px;
 }
-
-/* .carrer-img2{
-    height: 100%;
-    width: 100%;
-} */ */
 .carrers p{
     font-size: 12px;
 }
@@ -285,6 +280,19 @@ body {
     .card-image-container,
     .new-game-container {
         flex-direction: column;
+    }
+
+    .carrer-container{
+        flex-direction: column;
+    }
+
+    .carrer-img{
+        width: 50%;
+        margin-right:auto;
+    }
+
+    .carrer-point{
+        margin-top: -10px;
     }
 
     .banner-container {
