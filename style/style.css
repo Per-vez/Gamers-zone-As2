@@ -105,7 +105,7 @@ body {
 .right-side-content .content-title {
     text-align: left;
     margin-top: -30px;
-    margin-left: 190px;
+    margin-left: 100px;
     font-size: 12px;
     /* margin-bottom: 20px; */
 }
@@ -416,6 +416,14 @@ body {
     .we-are-gamer{
         flex-direction: column;
     }
+    .nav-list{
+        margin-bottom: 80px;
+
+    }
+    .right-banner-image div{
+        text-align: center;
+    }
+    
 
     .gamer-image>img{
         width: 400px;
@@ -449,10 +457,6 @@ body {
         width: 50px;
     }
 
-    /* .left-banner-img{
-        height: 50px;
-        width: 50px;
-    } */
 
 
     .card-headings {
@@ -464,11 +468,11 @@ body {
         margin-left: 150px;
     }
 
-    .card-img {
+    .card-img>img{
         size: 100%;
     }
 
-    .card-image-containerp {
+    .card-image-container>p {
         text-align: center;
     }
 
