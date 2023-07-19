@@ -62,7 +62,7 @@ body {
 .banner-image1 {
     width: 600px;
     height: 400px;
-   
+
 }
 
 .banner-image2 {
@@ -99,10 +99,10 @@ body {
     -webkit-text-fill-color: transparent;
     font-size: 45px;
     margin-top: -25px;
-   
+
 }
 
-.right-side-content .content-title{
+.right-side-content .content-title {
     text-align: left;
     margin-top: -30px;
     margin-left: 190px;
@@ -110,28 +110,61 @@ body {
     /* margin-bottom: 20px; */
 }
 
-.btn-container{
+.btn-container {
     color: white;
     font-size: 20px;
-    
+
 
 }
 
-.signin{
+.signin {
     border-radius: 10px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-padding: 8px;
-border: 0px;
-font-size: 15px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 8px;
+    border: 0px;
+    font-size: 15px;
 
 }
 
-.gorogue{
+.gorogue {
     border-radius: 10px;
     background-color: #4EC5F7;
     padding: 8px;
     border: 0px;
     margin-left: 10px;
     font-size: 15px;
-    
+
+}
+
+.card-headings {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-title{
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+.funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-image-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin: 0px 200px;
+}
+
+.card-image-container p {
+    font-size: 10px;
+}
+
+.card-img {
+    width: 250px;
+    height: 250px;
 }
