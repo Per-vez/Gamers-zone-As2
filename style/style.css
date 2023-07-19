@@ -164,7 +164,47 @@ body {
     font-size: 10px;
 }
 
-.card-img {
-    width: 250px;
-    height: 250px;
+.card-image-container img{
+    width: 200px;
+    height: 200px;
+}
+
+
+/* mobile device responsive */
+@media screen and (max-width:576px) {
+    .nav-container,
+    .nav-list,
+    .card-image-container{
+        flex-direction: column;
+    }
+
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-image2{
+        height: 50px;
+        width: 50px;
+    }
+
+    /* .left-banner-img{
+        height: 50px;
+        width: 50px;
+    } */
+
+
+    .card-headings{
+        margin-left: 100px;
+    }
+
+.play-like-that, .goat{
+        margin-left: 150px;
+    }
+    .card-img{
+       size: 100%;
+    }
+
+    .card-image-containerp{
+        text-align: center;
+    }
+    
 }
