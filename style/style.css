@@ -279,7 +279,7 @@ body {
 
 .games-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 15px;
     margin: 40px;
@@ -330,6 +330,36 @@ body {
     list-style: none;
     color: white;
     font-size: 15px;
+}
+
+.tap-icon{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.tap-icon img{
+    width: 30px;
+    height: 30px;
+}
+
+.terms-condition>ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+font-size: 10px;
+color: white;
+margin: 30px 0px;
+}
+
+.footer-end{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    margin-top: 100px;
+    padding-bottom: 50px;
 }
 
 
@@ -394,9 +424,24 @@ body {
 
     .games-container{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin:40px;
+        grid-template-columns: repeat(3,1fr);
+        margin-top:100px;
+        margin-bottom: 100px;
+        margin-left: 100px;
+        /* margin-right: 100px; */
+        
         gap: 10px;
+    }
+
+    .footer-nav>ul{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .tap-icon{
+        display: grid;
+        grid-template-columns: repeat(2.1fr);
+       justify-content: center;
     }
 
 }
