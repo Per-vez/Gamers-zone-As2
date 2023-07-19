@@ -56,3 +56,82 @@ body {
     width: 22px;
     height: 22px;
 }
+
+/* banner section */
+
+.banner-image1 {
+    width: 600px;
+    height: 400px;
+   
+}
+
+.banner-image2 {
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+}
+
+.banner-container {
+    display: flex;
+    gap: 10px;
+    height: 500px;
+}
+
+.right-side-content {
+    position: relative;
+    bottom: 350px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.right-side-content .play-like-that {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.right-side-content .goat {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    margin-top: -25px;
+   
+}
+
+.right-side-content .content-title{
+    text-align: left;
+    margin-top: -30px;
+    margin-left: 190px;
+    font-size: 12px;
+    /* margin-bottom: 20px; */
+}
+
+.btn-container{
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+.signin{
+    border-radius: 10px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+padding: 8px;
+border: 0px;
+font-size: 15px;
+
+}
+
+.gorogue{
+    border-radius: 10px;
+    background-color: #4EC5F7;
+    padding: 8px;
+    border: 0px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+}
